@@ -12,7 +12,7 @@ const RightContainer = () => {
             <h4>to get more details</h4>
           </div>
           <div className="phoneNumberBtn">
-            <a href="">
+            <a href="/">
               <BiSolidPhoneCall className="icon" /> <span>(8330 436-0717)</span>
             </a>
           </div>
@@ -49,17 +49,17 @@ const RightContainer = () => {
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/#">
                     Action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/#">
                     Another action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/#">
                     Something else here
                   </a>
                 </li>
@@ -76,17 +76,17 @@ const RightContainer = () => {
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/#">
                     Action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/#">
                     Another action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/#">
                     Something else here
                   </a>
                 </li>
@@ -103,17 +103,17 @@ const RightContainer = () => {
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/#">
                     Action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/#">
                     Another action
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/#">
                     Something else here
                   </a>
                 </li>
@@ -192,8 +192,8 @@ const RightContainer = () => {
           <p>
             <strong>100% Safe. No purchase required.</strong> I agree to provide
             my phone number and to be contacted by clicking “Get a Free Quote”.
-            Your <a href="">privacy</a> is respected.{" "}
-            <a href="">Terms of Service</a>.
+            Your <a href="/">privacy</a> is respected.{" "}
+            <a href="/">Terms of Service</a>.
           </p>
         </div>
       </form>
