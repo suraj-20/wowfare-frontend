@@ -3,7 +3,7 @@
 }
 
 .contactUsHeading {
-    display: none;
+  display: none;
 }
 
 .callUsNow {
@@ -186,87 +186,105 @@ select {
 }
 
 .getFreeQuoteBtn {
-    width: 100%;
+  width: 100%;
 }
 
 .getFreeQuoteBtn button {
-    padding: 0.8rem;
-    width: 100%;
-    background: var(--btnColor);
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    color: var(--whiteColor);
+  padding: 0.8rem;
+  width: 100%;
+  background: var(--btnColor);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: var(--whiteColor);
 }
 
 .termsAndCondition p {
-    font-size: 0.8rem;
-    text-align: center;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .termsAndCondition p a {
-    text-decoration: underline;
-    color: var(--textColor);
+  text-decoration: underline;
+  color: var(--textColor);
 }
 
-@media(max-width:1400px) {
-    .callUsNowContent h3 {
-        font-size: 1.3rem;
-    }
+@media (max-width: 1400px) {
+  .callUsNowContent h3 {
+    font-size: 1.3rem;
+  }
 
-    .callUsNowContent h4 {
-        font-size: 0.8rem;
-    }
+  .callUsNowContent h4 {
+    font-size: 0.8rem;
+  }
 
-    .callUsNow .phoneNumberBtn {
-        font-size: 1rem;
-        padding: 0.6rem 0.8rem;
-    }
+  .callUsNow .phoneNumberBtn {
+    font-size: 1rem;
+    padding: 0.6rem 0.8rem;
+  }
 
-    .contentInPera p {
-        font-size: 0.8rem;
-    }
+  .contentInPera p {
+    font-size: 0.8rem;
+  }
 }
 
-@media(max-width:1200px) {
-    .right-container-content {
-        width: 100%;
-    }
+@media (max-width: 1200px) {
+  .right-container-content {
+    width: 100%;
+  }
 
-    .contactUsHeading {
-        display: block;
-        text-align: center;
-    }
+  .contactUsHeading {
+    display: block;
+    text-align: center;
+  }
 
-    .upper-content {
-        display: none;
-    }
+  .upper-content {
+    display: none;
+  }
 
-    .dropdown-content {
-        display: none;
-    }
+  .dropdown-content {
+    display: none;
+  }
 
-    .search-form {
-        display: none;
-    }
+  .search-form {
+    display: none;
+  }
 
-    .nameAndEmail .name-field {
-        display: none;
-    }
+  .nameAndEmail .name-field {
+    display: none;
+  }
 
-    .nameAndEmail .email-field {
-        width: 100%;
-    }
+  .nameAndEmail .email-field {
+    width: 100%;
+  }
 
-    .input-select-field {
-        width: 10%;
-    }
+  .input-select-field {
+    width: 10%;
+  }
 
-    .input-number-field {
-        width: 100%;
-    }
+  .input-number-field {
+    width: 100%;
+  }
 
-    .number-input-field .verticalLine {
-        display: block;
-    }
+  .number-input-field .verticalLine {
+    display: block;
+  }
+}
+
+@media(max-width:1000px) {
+  .input-select-field {
+    width: 20%;
+  }
+}
+
+@media(max-width:700px) {
+  .input-select-field {
+    width: 25%;
+  }
+}
+
+@media(max-width:500px) {
+  .input-select-field {
+    width: 30%;
+  }
 }

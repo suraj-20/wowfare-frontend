@@ -240,7 +240,7 @@
   margin: 0 0.4rem;
 }
 
-@media(max-width:1200px) {
+@media (max-width: 1200px) {
   .mainFormSection {
     top: 12%;
     height: 100%;
