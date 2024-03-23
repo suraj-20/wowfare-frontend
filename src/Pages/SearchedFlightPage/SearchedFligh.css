@@ -16,9 +16,6 @@
 }
 
 @media (max-width: 1200px) {
-  .searchedFlightContainer {
-    /* height: 115vh; */
-  }
 
   .searchedFlightContainer .mainImage {
     background-image: none;
