@@ -1,11 +1,14 @@
-.searchedFlight {
+.searchedFlightContainer {
   width: 100%;
-  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  /* height: 110vh; */
   /* position: absolute; */
   background: #468fd9;
+  /* background-image: url("../../Assets/Images//deeplink-bg.jpg"); */
 }
 
-.searchedFlight .mainImage {
+.searchedFlightContainer .mainImage {
   width: 100%;
   height: 100%;
   display: block;
@@ -13,11 +16,11 @@
 }
 
 @media (max-width: 1200px) {
-  .searchedFlight {
-    height: 115vh;
+  .searchedFlightContainer {
+    /* height: 115vh; */
   }
 
-  .searchedFlight .mainImage {
+  .searchedFlightContainer .mainImage {
     background-image: none;
     height: 0;
   }
