@@ -5,6 +5,8 @@ import MainForm from "../../Components/MainFormSection/MainForm";
 import Header from "../../Components/Header/Header";
 import RecentDeals from "../../Components/RecentCheapDeals/RecentDeals";
 import StepSection from "../../Components/StepsSection/StepSection";
+import StarSection from "../../Components/StarsSection/StarSection";
+import ReviewSection from "../../Components/ReviewsSection/ReviewSection";
 
 const SearchedFligh = () => {
   return (
@@ -19,6 +21,12 @@ const SearchedFligh = () => {
       </div>
       <div className="stepSection">
         <StepSection />
+      </div>
+      <div className="reviewAndStarSection">
+        <div className="bothSection">
+          <StarSection />
+          <ReviewSection />
+        </div>
       </div>
     </div>
   );

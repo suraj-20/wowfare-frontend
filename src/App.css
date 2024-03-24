@@ -30,7 +30,7 @@ a {
   color: var(--whiteColor);
 }
 
-h4 {
+h4, h2, h3, h1 {
   margin: 0;
 }
 
