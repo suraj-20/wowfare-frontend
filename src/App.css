@@ -30,10 +30,22 @@ a {
   color: var(--whiteColor);
 }
 
-h4, h2, h3, h1 {
+h4,
+h2,
+h3,
+h1 {
   margin: 0;
 }
 
 p {
   margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  list-style: none;
 }

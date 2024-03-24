@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SearchedFligh from "./Pages/SearchedFlightPage/SearchedFligh";
+import Footer from "./Components/FooterSection/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<SearchedFligh />}></Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
