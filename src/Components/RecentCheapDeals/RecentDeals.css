@@ -4,8 +4,8 @@
 }
 
 .heading h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .recentCards {
@@ -76,18 +76,18 @@
   align-items: center;
 }
 
-@media(max-width:1200px) {
-    .recentCards {
-        flex-direction: column;
-        gap: 20px;
-    }
-    .recentCard {
-        width: 100%;
-    }
+@media (max-width: 1200px) {
+  .recentCards {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .recentCard {
+    width: 100%;
+  }
 }
 
-@media(max-width:700px) {
-    .heading h3 {
-        font-size: 1rem;
-    }
+@media (max-width: 700px) {
+  .heading h3 {
+    font-size: 1rem;
+  }
 }

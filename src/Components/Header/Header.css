@@ -116,6 +116,6 @@
 
   .onlyCallBtn .icon {
     font-size: 2rem;
-    color: var(--secondaryColor);
+    color: var(--btnColor);
   }
 }

@@ -35,7 +35,7 @@
   gap: 10px;
 }
 
-.star {
+.stars .star {
   /* border: 1px solid var(--btnColor); */
   background: var(--btnColor);
   border-radius: 2px;

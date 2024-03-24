@@ -326,3 +326,9 @@
     margin: 0;
   }
 }
+
+@media(max-width:500px) {
+  .cityname-heading h1 {
+    font-size: 1.4rem;
+  }
+}
