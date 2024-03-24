@@ -7,10 +7,12 @@ import RecentDeals from "../../Components/RecentCheapDeals/RecentDeals";
 import StepSection from "../../Components/StepsSection/StepSection";
 import StarSection from "../../Components/StarsSection/StarSection";
 import ReviewSection from "../../Components/ReviewsSection/ReviewSection";
+import Popup from "../../Components/Popup/Popup";
 
 const SearchedFligh = () => {
   return (
     <div className="searchedFlight">
+      <Popup />
       <div className="searchedFlightContainer">
         {/* <img className="mainImage" src={mainImage} alt="" /> */}
         <Header />
