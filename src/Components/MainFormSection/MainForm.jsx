@@ -6,7 +6,7 @@ import RightContainer from "../MainFormRightSection/RightContainer";
 const MainForm = () => {
   return (
     <div className="mainFormSection">
-      <div className="mainForm container">
+      <div className="mainForm-container">
         <LeftContainer />
         <RightContainer />
       </div>

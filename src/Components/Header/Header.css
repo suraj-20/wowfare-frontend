@@ -5,10 +5,11 @@
   width: 100%;
 }
 
-.header .container {
+.header .header-container {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 90%;
+  margin: auto;
   justify-content: space-between;
   padding: 1.5rem 1rem;
 }
@@ -68,7 +69,8 @@
 }
 
 @media (max-width: 1200px) {
-  .header .container {
+  .header .header-container {
+    width: 100%;
     padding: 0 1rem 1.5rem;
   }
 }

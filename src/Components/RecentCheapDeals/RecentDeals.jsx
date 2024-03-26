@@ -33,7 +33,7 @@ const cards = [
 const RecentDeals = () => {
   return (
     <div className="recentDealsSection">
-      <div className="recemtDeal-container container">
+      <div className="recemtDeal-container">
         <div className="heading">
           <h3>Recent Cheap Flight Deals from New York City to Rome</h3>
         </div>

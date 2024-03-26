@@ -6,7 +6,7 @@ import image3 from '../../Assets/Images/reviews-logo-3.svg'
 
 const StarSection = () => {
   return (
-    <div className="starSection-container container">
+    <div className="starSection-container">
       <h2>81K+ of happy trips with WowFare</h2>
       <div className="starReviews">
         <figure>

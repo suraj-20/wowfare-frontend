@@ -47,7 +47,7 @@ const testimonials = [
 
 const ReviewSection = () => {
   return (
-    <div className="reviewSection-container container">
+    <div className="reviewSection-container">
       <div className="carousel-container">
         <Swiper
           slidesPerView={1}

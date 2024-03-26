@@ -6,11 +6,12 @@
   left: 0;
 }
 
-.mainForm {
+.mainForm-container {
   height: 100%;
   display: flex;
   justify-content: space-between;
   margin: 2rem auto;
+  width: 90%;
 }
 
 .left-container {
@@ -247,7 +248,7 @@
     height: 100%;
   }
 
-  .mainForm {
+  .mainForm-container {
     flex-direction: column;
     gap: 20px;
     justify-content: unset;

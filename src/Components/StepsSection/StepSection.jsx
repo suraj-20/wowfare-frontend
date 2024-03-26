@@ -5,7 +5,7 @@ import stepImage from "../../Assets/Images/arrows-1.svg";
 const StepSection = () => {
   return (
     <div className="stepSection-container">
-      <div className="step-container container">
+      <div className="step-container">
         <div className="step-content">
           <p className="step-num">Step 1</p>
           <p className="step-title">Get quick help with an expert</p>

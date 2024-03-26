@@ -6,7 +6,7 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 const Header = () => {
   return (
     <div className="header">
-      <div className="container mt-3">
+      <div className="header-container mt-3">
         <div className="nav-logo">
           <img src={img1} alt="logo" />
         </div>

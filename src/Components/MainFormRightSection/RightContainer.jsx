@@ -185,7 +185,7 @@ const RightContainer = () => {
         </div>
 
         <div className="getFreeQuoteBtn mt-3">
-          <button type="submit">Get a Free Quote</button>
+          <button type="submit">Claim Your Discount</button>
         </div>
 
         <div className="termsAndCondition mt-3">
