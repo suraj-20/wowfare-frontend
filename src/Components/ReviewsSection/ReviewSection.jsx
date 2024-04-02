@@ -48,6 +48,7 @@ const testimonials = [
 const ReviewSection = () => {
   return (
     <div className="reviewSection-container">
+      <h2 style={{marginBlock: "2rem"}}>Reviews</h2>
       <div className="carousel-container">
         <Swiper
           slidesPerView={1}
@@ -56,7 +57,7 @@ const ReviewSection = () => {
             clickable: true,
           }}
           autoplay={{
-            delay: 100000,
+            delay: 2500,
             disableOnInteraction: false,
           }}
           navigation={true}

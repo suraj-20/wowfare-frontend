@@ -26,7 +26,7 @@ const SearchedFligh = () => {
       </div>
       <div className="reviewAndStarSection">
         <div className="bothSection">
-          <StarSection />
+          {/* <StarSection /> */}
           <ReviewSection />
         </div>
       </div>

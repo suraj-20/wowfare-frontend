@@ -77,7 +77,7 @@ const MainFooter = () => {
           transpacific fares – from the West Coast). The maximum allowable stay
           is six months. Please call our toll-free line for current best prices
           and additional details.
-          <br />
+          {/* <br /> */}
           ^Savings up to 40% off are indicated off the full unrestricted
           published airfares of major airlines and may vary based on individual
           fare rules. Some airlines may impose additional baggage charges. The
