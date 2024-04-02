@@ -116,63 +116,6 @@ input {
   width: 30%;
 }
 
-input::placeholder {
-  font-size: 13px;
-  color: var(--textColor);
-}
-
-.icon {
-  font-size: 18px;
-  /* color: var(--PrimaryColor); */
-  /* margin-left: 10px; */
-}
-
-.input[type="range"] {
-  background: blue;
-}
-
-.searchOption {
-  position: absolute;
-  background: var(--gradientColor);
-  width: max-content;
-  bottom: -0.7rem;
-  column-gap: 0.8rem;
-  padding: 5px 1rem;
-  border-radius: 3rem;
-  left: 50%;
-  transform: translate(-50%);
-  justify-content: center;
-  cursor: pointer;
-}
-
-.searchOption:hover {
-  background: var(--PrimaryColor);
-}
-
-.icon {
-  font-size: 18px;
-  /* color: var(--whiteColor); */
-}
-
-/* span {
-  font-size: 13px;
-} */
-
-.homeFooterIcons {
-  width: 100%;
-  justify-content: space-between;
-}
-
-.icons {
-  font-size: 20px;
-  margin: 0 5px;
-  color: var(--whiteColor);
-  font-weight: 600;
-}
-
-.icon:hover {
-  color: var(--PrimaryColor);
-}
 
 @media screen and (min-width: 500px) {
   .smallText {
@@ -207,15 +150,36 @@ input::placeholder {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-/* 
-  @media screen and (min-width:940px) {
-    .homeSection {
-      height: 70vh;
-    }
+
+@media(max-width:1000px) {
+  .cardDiv {
+    flex-direction: column;
+  }
+
+  .column-input {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
   }
   
-  @media screen and (min-width:1240px) {
-    .homeSection {
-      height: 80vh;
-    }
-  } */
+  .input-field {
+    border-right: unset;
+    padding: 0rem 0.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.178);
+  }
+
+  .column-search {
+    width: 100%;
+  }
+}
+
+@media(max-width:500px) {
+  .column-input {
+    grid-template-columns: 1fr;
+  }
+
+  .column-search {
+    flex-direction: column;
+  }
+}
