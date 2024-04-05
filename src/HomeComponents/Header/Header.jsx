@@ -43,8 +43,8 @@ const Header = () => {
               </Link>
             </li>
 
-            <button type="submit" className="home-callbtn callBtn">
-              <BiSolidPhoneCall className="icon" /> <span>(8330 436-0717)</span>
+            <button type="submit" className="home-callbtn">
+              <BiSolidPhoneCall className="icon" /> <span>(8330) 436-0717</span>
             </button>
           </ul>
 

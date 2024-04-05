@@ -50,8 +50,11 @@
   /* border: 1px solid gray; */
   background: var(--btnColor);
   color: #fff;
-  padding: 6px 4px;
+  padding: 10px 20px;
   margin-left: 1rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
 }
 
 .home-callbtn svg{

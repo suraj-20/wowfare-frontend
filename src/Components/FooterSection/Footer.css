@@ -117,7 +117,7 @@
     grid-template-columns: unset;
     grid-template-rows: auto auto auto auto;
     text-align: center;
-    gap: 5px;
+    gap: 15px;
   }
   .paragraph {
     text-align: center;

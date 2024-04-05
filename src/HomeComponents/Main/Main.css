@@ -116,6 +116,48 @@ input {
   width: 30%;
 }
 
+.search-box-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.way-of-flight {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.way-of-flight  button {
+  background: none;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.fligh-class-dropdown {
+  /* width: 15%; */
+  display: block;
+}
+
+.dropdown-flight-class {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  border: none;
+  outline: none;
+}
+
+.dropdown-flight-class option {
+  font-size: 0.9rem;
+}
 
 @media screen and (min-width: 500px) {
   .smallText {
