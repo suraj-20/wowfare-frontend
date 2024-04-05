@@ -1,15 +1,43 @@
 import React, { useState } from "react";
 // import video from "../../Assets/video1.mp4";
 import { HiLocationMarker, HiOutlineUserGroup } from "react-icons/hi";
-import { FaCalendarAlt } from "react-icons/fa";
+import { FaCalendarAlt, FaUser } from "react-icons/fa";
 
 const Search = () => {
-  const [state, setState] = useState("one-way");
   const [isOneWay, setIsOneWay] = useState(true);
+  const [numAdults, setNumAdults] = useState(1);
+  const [numChildren, setNumChildren] = useState(0);
+  const [numInfants, setNumInfants] = useState(0);
+  const [showPassengerOption, setShowPassengerOption] = useState(false);
 
   const handleToggleFlightType = () => {
     setIsOneWay(!isOneWay);
   };
+
+  const handleToggleShowPassenger = () => {
+    setShowPassengerOption(!showPassengerOption);
+  };
+
+  const handlePassengerChange = (type, increment) => {
+    switch (type) {
+      case "adults":
+        setNumAdults(Math.max(numAdults + increment, 0));
+        break;
+      case "children":
+        setNumChildren(Math.max(numChildren + increment, 0));
+        break;
+      case "infants":
+        setNumInfants(Math.max(numInfants + increment, 0));
+        break;
+      default:
+        break;
+    }
+  };
+
+  const preventDefaultAction = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <>
       <div className="way-of-flight">
@@ -46,15 +74,19 @@ const Search = () => {
           </div>
 
           <div className="column-search">
-            <div className="input-field returning-date-input">
-              {/* <FaCalendarAlt className="icon" /> */}
-              <input type="text" name="" id="" placeholder="Returning" />
+            <div
+              onClick={handleToggleShowPassenger}
+              className="input-field passenger-input"
+            >
+              <FaUser className="icon" />
+              <input type="" name="" id="" placeholder="Passenger" />
             </div>
             <div className="searchBtn">
               <button type="submit">Search</button>
             </div>
           </div>
         </div>
+
         <div className="fligh-class-dropdown">
           <select
             class="dropdown-flight-class"
@@ -66,6 +98,77 @@ const Search = () => {
             <option value="3">First</option>
           </select>
         </div>
+
+        {showPassengerOption && (
+          <div className="passenger-options">
+            <div className="passenger-type">
+              <label>Adults:</label>
+              <div className="addOrSubBtn">
+                <button
+                  onClick={(e) => {
+                    preventDefaultAction(e);
+                    handlePassengerChange("adults", -1);
+                  }}
+                >
+                  -
+                </button>
+                <span>{numAdults}</span>
+                <button
+                  onClick={(e) => {
+                    preventDefaultAction(e);
+                    handlePassengerChange("adults", 1);
+                  }}
+                >
+                  +
+                </button>
+              </div>
+            </div>
+            <div className="passenger-type">
+              <label>Children:</label>
+              <div className="addOrSubBtn">
+                <button
+                  onClick={(e) => {
+                    preventDefaultAction(e);
+                    handlePassengerChange("children", -1);
+                  }}
+                >
+                  -
+                </button>
+                <span>{numChildren}</span>
+                <button
+                  onClick={(e) => {
+                    preventDefaultAction(e);
+                    handlePassengerChange("children", 1);
+                  }}
+                >
+                  +
+                </button>
+              </div>
+            </div>
+            <div className="passenger-type">
+              <label>Infants:</label>
+              <div className="addOrSubBtn">
+                <button
+                  onClick={(e) => {
+                    preventDefaultAction(e);
+                    handlePassengerChange("infants", -1);
+                  }}
+                >
+                  -
+                </button>
+                <span>{numInfants}</span>
+                <button
+                  onClick={(e) => {
+                    preventDefaultAction(e);
+                    handlePassengerChange("infants", 1);
+                  }}
+                >
+                  +
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </form>
     </>
   );

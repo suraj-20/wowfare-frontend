@@ -168,3 +168,9 @@ small {
     font-size: 1.1rem;
   }
 }
+
+@media (max-width: 425px) {
+  .title {
+    font-size: 0.9rem;
+  }
+}
