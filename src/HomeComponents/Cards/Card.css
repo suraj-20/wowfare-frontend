@@ -157,10 +157,6 @@ small {
   .secContent {
     grid-template-columns: repeat(3, 1fr);
   }
-
-  .singleDestination {
-    /* height: auto; */
-  }
 }
 
 @media (max-width: 500px) {
